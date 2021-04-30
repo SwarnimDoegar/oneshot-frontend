@@ -45,10 +45,6 @@ function CollegeDetails(props) {
       setData(resJSON);
     }
     makeRequest();
-  });
-
-  React.useEffect(() => {
-    setTabKey("details");
   }, [college]);
 
   if (data) {
