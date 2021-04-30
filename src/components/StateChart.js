@@ -17,7 +17,7 @@ const StateChart = () => {
       };
 
       const res = await fetch(
-        "https://35.247.134.225:8443/api/colleges_by_state",
+        "http://35.247.134.225:8080/api/colleges_by_state",
         requestOptions
       );
       const jsonData = await res.json();
